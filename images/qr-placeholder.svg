@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
-    <rect width="150" height="150" fill="#f0f0f0"/>
-    <rect x="10" y="10" width="40" height="40" fill="#1a5f7a"/>
-    <rect x="100" y="10" width="40" height="40" fill="#1a5f7a"/>
-    <rect x="10" y="100" width="40" height="40" fill="#1a5f7a"/>
-    <rect x="55" y="55" width="40" height="40" fill="#1a5f7a"/>
-    <rect x="60" y="60" width="30" height="30" fill="#f0f0f0"/>
-    <rect x="65" y="65" width="20" height="20" fill="#1a5f7a"/>
-    <text x="75" y="140" text-anchor="middle" font-size="12" fill="#666666" font-family="sans-serif">扫码联系</text>
+    <rect width="150" height="150" fill="#132238"/>
+    <rect x="10" y="10" width="40" height="40" fill="#00d4ff"/>
+    <rect x="100" y="10" width="40" height="40" fill="#00d4ff"/>
+    <rect x="10" y="100" width="40" height="40" fill="#00d4ff"/>
+    <rect x="55" y="55" width="40" height="40" fill="#00d4ff"/>
+    <rect x="60" y="60" width="30" height="30" fill="#132238"/>
+    <rect x="65" y="65" width="20" height="20" fill="#00d4ff"/>
+    <text x="75" y="140" text-anchor="middle" font-size="12" fill="#8899aa" font-family="sans-serif">扫码联系</text>
 </svg>
