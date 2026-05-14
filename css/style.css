@@ -328,6 +328,61 @@ body {
     background-color: var(--color-bg-section);
 }
 
+/* 一站式服务流程 */
+.service-flow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 40px 0 60px 0;
+    padding: 30px;
+    background-color: var(--color-bg-card);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 212, 255, 0.1);
+}
+
+.flow-item {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.flow-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 15px;
+    padding: 15px;
+    background-color: rgba(0, 212, 255, 0.1);
+    border-radius: 50%;
+    color: var(--color-accent);
+}
+
+.flow-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-text-white);
+    margin-bottom: 8px;
+}
+
+.flow-desc {
+    font-size: 13px;
+    color: var(--color-text-gray);
+}
+
+.flow-arrow {
+    font-size: 24px;
+    color: var(--color-accent);
+    opacity: 0.6;
+}
+
+.services-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-text-white);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .services-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -709,6 +764,21 @@ body {
     /* 区块标题 */
     .section-title {
         font-size: 26px;
+    }
+
+    /* 一站式服务流程 - 垂直布局 */
+    .service-flow {
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .flow-arrow {
+        transform: rotate(90deg);
+    }
+
+    .services-subtitle {
+        font-size: 18px;
     }
 
     /* 服务卡片 - 单列 */
